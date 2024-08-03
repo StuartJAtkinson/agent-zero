@@ -38,8 +38,8 @@ def initialize():
     utility_llm = models.get_openai_chat(temperature=0)
     
     # embedding model used for memory
-    embedding_llm = models.get_embedding_openai()
-    # embedding_llm = models.get_embedding_hf()
+    # embedding_llm = models.get_embedding_openai()
+    embedding_llm = models.get_embedding_hf()
 
     # agent configuration
     config = AgentConfig(
