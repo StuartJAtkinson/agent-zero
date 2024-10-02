@@ -1,0 +1,1 @@
+The work_dir/CodeAtlasVSIX contains a Visual Studio extension source code written in C#. Your task it to read each file and rewrite it in TypeScript for a Visual Code extension into work_dir/CodeAtlasVSIX2
